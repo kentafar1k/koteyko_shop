@@ -1,0 +1,80 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Дождевик",
+      "image": "products_images/set1.png",
+      "description": "",
+      "short_description": "Раздавать стиля можно и в дождь",
+      "price": "6090.00",
+      "quantity": 15,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Очочки",
+      "image": "products_images/glasses1.png",
+      "description": "",
+      "short_description": "В очочках чёрных почитаем хопчик",
+      "price": "23725.00",
+      "quantity": 7,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Острый козырь",
+      "image": "products_images/boater1.png",
+      "description": "",
+      "short_description": "Знаменитая кепка Котаса Шелби",
+      "price": "3390.00",
+      "quantity": 3,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Помидорчик",
+      "image": "products_images/tomato.png",
+      "description": "",
+      "short_description": "Можно добавить в суп",
+      "price": "2340.00",
+      "quantity": 1,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Смокинг",
+      "image": "products_images/smoking.png",
+      "description": "",
+      "short_description": "Строгость, дерзость и харизма",
+      "price": "13590.00",
+      "quantity": 9,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Корка от банана",
+      "image": "products_images/banana.png",
+      "description": "",
+      "short_description": "Не знаю, как это здесь оказалось",
+      "price": "0.00",
+      "quantity": 1,
+      "category": 3
+    }
+  }
+]

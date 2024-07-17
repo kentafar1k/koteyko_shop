@@ -1,0 +1,14 @@
+body {
+    background: url("../img/cat_background.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 56px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

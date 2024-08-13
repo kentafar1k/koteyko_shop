@@ -36,23 +36,6 @@ def products(request, category_id=None):
     return render(request, 'products/products.html', context)
 
 
-def test_context(request):
-    context = {
-        'title': 'store',
-        'header': 'Добро пожаловать',
-        'username': 'Иван Иванов',
-        'products': [
-            {'name': 'Дождевик', 'price': 6090.00},
-            {'name': 'Очочки', 'price': 23725.00},
-            {'name': 'Острый козырь', 'price': 3390.00},
-        ],
-        'promotion': True,
-        'products_of_promotion': [
-            {'name': 'Помидорчик', 'price': 2340.00}
-        ]
-    }
-    return render(request, 'products/test-context.html', context)
-
 @login_required
 def basket_add(request, product_id):
     current_page = request.META.get('HTTP_REFERER')

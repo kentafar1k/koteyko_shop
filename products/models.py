@@ -1,6 +1,7 @@
 from django.db import models
 from users.models import User
 
+
 # после создания новой модели и миграции не стоит забывать регистрировать её в admin.py
 class ProductCategory(models.Model):
     name = models.CharField(max_length=64, unique=True)
@@ -37,3 +38,10 @@ class Basket(models.Model):
 
     def sum(self):
         return self.quantity * self.product.price
+
+class MyModel(models.Model):
+    data = models.JSONField()
+
+    def __str__(self):
+        return str(self.data)
+
